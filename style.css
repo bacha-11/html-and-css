@@ -1,17 +1,20 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body {
     background-color: #d2b48c;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 2px dotted black;
-    padding: 10px 10px 10px 10px;
-    font-family: monospace;    
+    padding: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 #coffee_img_style {
     border: 1px solid #d2b48c;
     border-radius: 50%;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: teal;
+    border-bottom: thin double sienna;
 }
