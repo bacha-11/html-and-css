@@ -8,27 +8,103 @@ h1, h2 {
     color: #007e7e;
 }
 
-h1 {
-    font-size: 150%;
-    padding-bottom: 10px;
-    border-bottom: 1px dotted black;
-}
-
 h2 {
     font-size: 120%;
 }
 
-#first_disc {
-    line-height: 1.9em;
-    color: saddlebrown;
-    padding: 25px;
-    margin: 30px;
-    padding-left: 80px;
-    margin-right: 250px;
-    background-color: rgb(0, 0, 0.5);
-    border: 1px outset aqua;
-    font-size: 100%;
+#header {
+    width: 1280px;
+    height: 200px;
+    margin: 0px auto;
+    border: 1px solid red;
+    background-color: turquoise;
+}
+
+#header img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#header h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: red;
 }
 
 
+#glass {
+    float: right;
+    width: 300px;
+    border: 1px solid red;
+    padding: 12px;
+    text-align: center;
+    margin: 4px;
+    margin-left: 30px;
+    margin-right: 26px;
+}
+
+#glass img {
+    width: 80px;
+    height: 80px;
+}
+
+#glass h2 {
+    color: red;
+}
+
+#content1  {
+    font-size: 120%;
+    margin-left: 50px;
+}
+
+
+#content2 {
+    width: 400px;
+    padding: 25px;
+    text-align: center;
+    margin: 25px;
+    margin-left: 250px;
+    border: 1px solid red;
+    background-color: whitesmoke;
+}
+
+#last_content {
+    font-size: 120%;
+    margin-left: 50px;
+}
+
+#test_link {
+    text-align: center;
+    margin-top: 170px;
+}
+
+#test_link a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 14px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}
+
+#test_link a:link {
+    color: green;
+}
+
+#test_link a:visited {
+    color: red;
+}
+
+#test_link a:hover {
+    color: black;
+    background-color: coral;
+    border-bottom: 1px solid green;
+}
+
+footer {
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid red;
+}
 

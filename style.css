@@ -1,20 +1,127 @@
-
-
 body {
+    font-size: small;
     background-color: #d2b48c;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 2px dotted black;
-    padding: 20px 20px 20px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
-#coffee_img_style {
-    border: 1px solid #d2b48c;
-    border-radius: 50%;
+
+#allcontent {
+    width: 1280px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid red;
 }
 
-h1, h2 {
-    font-weight: bold;
-    color: teal;
-    border-bottom: thin double sienna;
+header {
+    background-color: sienna;
+    height: 160px;
+    
 }
+
+header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    color: snow;
+    float: left;
+    margin-top: 40px;
+    
+}
+
+header p {
+    float: right;
+    font-size: 130%;
+    color: lavender;
+    margin: 30px;
+    font-weight: bold;
+}
+
+#left_side {
+    width: 300px;
+    height: 800px;
+    float: left;
+    margin-top: 10px;
+    background-color: rgb(214, 183, 152);
+}
+
+#left_side h2 {
+    color: red;
+    padding: 8px;
+}
+
+#left_side p {
+    color: dark;
+    padding: 10px;
+}
+
+#main {
+    width: 600px;
+    height: 800px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(214, 183, 152);
+}
+
+#main h2 {
+    color: red;
+    padding: 10px;
+}
+
+#main p {
+    padding: 10px;
+}
+
+aside {
+    width: 353px;
+    height: 800px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(214, 183, 152);
+}
+
+aside img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+aside p {
+    padding: 14px;
+    line-height: 120%;
+    text-align: left;
+}
+
+aside h4 a {
+    text-decoration: none;
+    color: red;
+}
+
+aside ul li {
+    color: darkred;
+    font-size: 130%;
+    margin-right: 17px;
+    list-style-type: none;
+}
+
+footer {
+    height: 70px;
+    clear: both;
+    text-align: center;
+    margin: px;
+    background-color: rgb(214, 183, 152);
+}
+
+footer p {
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
