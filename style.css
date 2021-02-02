@@ -38,6 +38,38 @@ header p {
     font-weight: bold;
 }
 
+nav {
+    height: px
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 25px;
+    margin-top: -4px;
+    background-color: rgb(214, 183, 152);
+}
+
+nav ul li {
+    display: inline;
+    padding: 17px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: brown;
+    border-bottom: gold solid 1px;
+}
+
+ul li.selected {
+    background-color: #c8b99c;
+    }
+
+
 #left_side {
     width: 300px;
     height: 800px;
