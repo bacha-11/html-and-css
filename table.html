@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border: 1px solid red;
+            margin: 0px auto;
+            width: 100%;
+            text-align: center;
+            caption-side: bottom;
+            border-collapse: collapse;
+        }
+
+        .th_color { background-color: brown;}
+
+        tr:hover { background-color: aqua;}
+        tr:hover:nth-child(even) { background-color: coral;}
+
+        th, td {
+            border: thin dotted red;
+            padding: 10px;
+            color: greenyellow;
+        }
+
+        caption {
+            font-style: italic;
+            font-size: 120%;
+            padding: 10px;
+        }
+        
+        .center_align { text-align: center;}
+
+        .right_align { text-align: right;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Info Table</caption>
+        <tr >
+            <th class="th_color">name</th>
+            <th class="th_color">email</th>
+            <th class="th_color">address</th>
+            <th class="th_color">phone</th>
+        </tr>
+        <tr>
+            <td class="center_align">ijaz</td>
+            <td class="right_align">example@gmail.com</td>
+            <td class="right_align">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+
+        <tr class="td_color">
+            <td class="center_align">ijaz</td>
+            <td class="right_align">example@gmail.com</td>
+            <td class="right_align">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+        <tr>
+            <td class="center_align">ijaz</td>
+            <td class="right_align">example@gmail.com</td>
+            <td class="right_align">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+        <tr class="td_color">
+            <td class="center_align">ijaz</td>
+            <td class="right_align">example@gmail.com</td>
+            <td class="right_align">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+        <tr>
+            <td class="center_align"  rowspan="2">ijaz</td>
+            <td class="right_align" rowspan="2">example@gmail.com</td>
+            <td class="right_align" rowspan="2">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+        <tr>
+            <td>01029394985767</td>
+        </tr>
+        <tr class="td_color">
+            <td class="center_align">ijaz</td>
+            <td class="right_align">example@gmail.com</td>
+            <td class="right_align">kanju chawak swat</td>
+            <td class="center_align">1234567890</td>
+        </tr>
+    </table>
+</body>
+</html>
