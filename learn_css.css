@@ -20,3 +20,14 @@
     font-style: italic;
     font-variant: small-caps;
 }
+
+#textStyle{
+    color: teal;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 10px;
+    direction: rtl;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
