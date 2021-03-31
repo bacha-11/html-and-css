@@ -49,3 +49,8 @@ a:active{
 a:visited{
     color: rgb(60, 255, 0);
 }
+
+
+#listStyle ul{
+    list-style-type: none;
+}
