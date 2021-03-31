@@ -20,6 +20,8 @@
     font-style: italic;
     font-variant: small-caps;
     text-align: center;
+    border: 1px solid rgb(26, 128, 0);
+    border-radius: 20px;
 }
 
 #textStyle{
@@ -45,5 +47,5 @@ a:active{
 }
 
 a:visited{
-    color: yellow;
+    color: rgb(60, 255, 0);
 }
