@@ -19,6 +19,7 @@
     font-weight: lighter;
     font-style: italic;
     font-variant: small-caps;
+    text-align: center;
 }
 
 #textStyle{
@@ -28,6 +29,21 @@
     text-indent: 10px;
     direction: rtl;
     letter-spacing: 2px;
-    word-spacing: 2px;
-    
+    word-spacing: 2px;  
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: teal;
+}
+
+a:active{
+    color: tomato;
+}
+
+a:visited{
+    color: yellow;
 }
