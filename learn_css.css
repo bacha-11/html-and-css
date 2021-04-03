@@ -83,3 +83,53 @@ a:visited{
     border: 1px solid red;
     overflow: scroll;
 }
+
+#box{
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    background-color: brown;
+    position: relative;
+}
+
+#box1{
+    width: 70px;
+    height: 70px;
+    background-color: burlywood;
+    position: absolute;
+}
+
+#box2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(83, 49, 5);
+    position: absolute;
+    right: 0;
+}
+
+#box3{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(27, 25, 21);
+    position: absolute;
+    bottom: 0;
+}
+
+#box4{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(16, 89, 131);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#box5{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(121, 16, 39);
+    position: absolute;
+    top: 160;
+    left: 260;
+}
+
