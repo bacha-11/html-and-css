@@ -157,5 +157,11 @@ a:visited{
     background-color: springgreen;
 }
 
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
 
 
