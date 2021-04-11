@@ -167,3 +167,24 @@ a:visited{
     text-shadow: 2px 4px 2px black;
 }
 
+.animationaffect{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    position: relative;
+}
+
+.animationaffect p{
+    animation-name: leftToright;
+    position: absolute;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftToright{
+    0%{left: 0}
+    100%{left: 85%}
+    /* from{left: 0}
+    to{left: 85%} */
+}
