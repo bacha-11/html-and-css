@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        .animatedPharagrap{
+            background-color: gray;
+            width: 100%;
+            height: 70px;
+            position: relative;
+        }
+
+        .animatedPharagrap p{
+            color: white;
+            font-size: 20px;
+            text-shadow: teal 4px 4px 2px;
+            position: absolute;
+            left: 10%;
+            animation-name: pharagrap;
+            animation-duration: 6s;
+            animation-delay: 2ms;
+            animation-iteration-count: 4;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-fill-mode: both;
+            animation-play-state: running;
+        }
+
+        @keyframes pharagrap{
+            0%{left: 10%}
+            85%{background-color: tomato;}
+            100%{left: 80%;}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="animatedPharagrap">
+        <p>animated paragrap.</p>
+    </div>
+</body>
+</html>
